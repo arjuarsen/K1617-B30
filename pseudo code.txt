@@ -1,0 +1,7 @@
+pseudo code:
+1.create threads T1,T2 in library <pthread.h>
+2.create functions f1,f2,fa,fb,fc.
+3.T1 thread runs f1 & in f1 create one more thread T2 it calls fa & fb
+4.T2 runs function fb.
+5.use semaphores to synchronize these by sem_wait & sem_post calls in library <semaphore.h>
+6.declare gobal count it should be updated after executing the following functions
