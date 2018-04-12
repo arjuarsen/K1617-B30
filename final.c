@@ -3,7 +3,7 @@
 #include<semaphore.h>
 sem_t a;
 int c=5;
-int r1,r2,r3;1
+int r1,r2,r3;
 
 
 
